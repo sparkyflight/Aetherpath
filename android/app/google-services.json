@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "979457116054",
+    "project_id": "sparkyflight-e3694",
+    "storage_bucket": "sparkyflight-e3694.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979457116054:android:dc0b817b7a808c1d377fb7",
+        "android_client_info": {
+          "package_name": "com.sparkyflight.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979457116054-4uqp4868v56tkiag47hdmfhd4gqa8vq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc30hYFqvCi9RtM9GylfQ4mcnVtdzjxSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979457116054-2piiktghfm5v8fof0prgkrte57snmm9a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "979457116054-r5qm64rr6fkaose1053o82q32oneame4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sparkyflight"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
