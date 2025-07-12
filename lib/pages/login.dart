@@ -159,7 +159,7 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
   Future<void> _signInWithTwitter() async {
     try {
       TwitterAuthProvider twitterProvider = TwitterAuthProvider();
-      await FirebaseAuth.instance.signInWithProvider(twitterProvider);
+      await FirebaseAuth.instance.signInWithPopup(twitterProvider);
     } catch (e) {
       _showSnackBar('Twitter Sign-In failed');
     }
@@ -168,7 +168,7 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
   Future<void> _signInWithGithub() async {
     try {
       GithubAuthProvider githubProvider = GithubAuthProvider();
-      await FirebaseAuth.instance.signInWithProvider(githubProvider);
+      await FirebaseAuth.instance.signInWithPopup(githubProvider);
     } catch (e) {
       _showSnackBar('GitHub Sign-In failed');
     }
